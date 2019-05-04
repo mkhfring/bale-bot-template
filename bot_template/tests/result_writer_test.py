@@ -2,8 +2,8 @@ import os
 import unittest
 from collections import defaultdict
 
-from vip_admin.utils.result_writer import ResultWriter
-from vip_admin import MAIN_DIRECTORY
+from bot_template.utils.result_writer import ResultWriter
+from bot_template import MAIN_DIRECTORY
 
 
 result_path = os.path.join(MAIN_DIRECTORY,'tests/data/practice.xlsx')

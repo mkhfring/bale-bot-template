@@ -2,8 +2,8 @@ import asyncio
 
 from balebot.updater import Updater
 
-from vip_admin.config import BotConfig
-from vip_admin.bot.controllers import RootController, OfficerScoreController, \
+from bot_template.config import BotConfig
+from bot_template.bot.controllers import RootController, OfficerScoreController, \
     CustomerController, \
     OfficerSearchController
 

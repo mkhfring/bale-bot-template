@@ -2,10 +2,10 @@ import argparse
 
 from  sqlalchemy import create_engine
 
-from vip_admin.database.databasemanager import DatabaseManager
+from bot_template.database.databasemanager import DatabaseManager
 from ..bot.admin_bot import updater
-from vip_admin.database import BaseModel
-from vip_admin.config import BotConfig
+from bot_template.database import BaseModel
+from bot_template.config import BotConfig
 
 
 def main():

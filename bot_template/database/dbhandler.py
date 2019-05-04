@@ -8,7 +8,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
 from balebot.utils.logger import Logger
-from vip_admin.exeptions import DB2Exception
+from bot_template.exeptions import DB2Exception
 
 
 logger = Logger().get_logger()

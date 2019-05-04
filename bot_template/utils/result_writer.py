@@ -5,7 +5,7 @@ from collections import OrderedDict
 
 import pandas as pd
 
-from vip_admin.utils import logger
+from bot_template.utils import logger
 
 
 DATA_INDEX = 0

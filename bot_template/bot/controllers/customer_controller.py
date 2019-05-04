@@ -10,10 +10,10 @@ from balebot.filters import TemplateResponseFilter, TextFilter
 from balebot.utils.util_functions import arabic_to_eng_number
 import khayyam
 
-from vip_admin.config import BotConfig
-from vip_admin import MAIN_DIRECTORY
-from vip_admin.bot.constants import ConstantMessage, RegexPattern
-from vip_admin.bot.constants import ButtonMessage
+from bot_template.config import BotConfig
+from bot_template import MAIN_DIRECTORY
+from bot_template.bot.constants import ConstantMessage, RegexPattern
+from bot_template.bot.constants import ButtonMessage
 from ..controllers import RootController
 
 supported_users = BotConfig.supported_users

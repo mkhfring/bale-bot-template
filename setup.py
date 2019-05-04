@@ -4,7 +4,7 @@ import re
 
 # reading package's version (same way sqlalchemy does)
 with open(
-    os.path.join(os.path.dirname(__file__), 'vip_admin', '__init__.py')
+    os.path.join(os.path.dirname(__file__), 'bot_template', '__init__.py')
 ) as v_file:
     package_version = \
         re.compile('.*__version__ = \'(.*?)\'', re.S)\
@@ -27,7 +27,7 @@ setup(
     packages=find_packages(),
     entry_points={
         'console_scripts': [
-            'vip_admin = vip_admin.cli.starter:main'
+            'bot_template = bot_template.cli.starter:main'
         ]
     }
 )

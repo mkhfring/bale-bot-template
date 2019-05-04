@@ -1,6 +1,6 @@
 from sqlalchemy.orm import relationship
 from sqlalchemy import Integer, Column, String
-from vip_admin.database import BaseModel
+from bot_template.database import BaseModel
 
 
 class Branch(BaseModel):

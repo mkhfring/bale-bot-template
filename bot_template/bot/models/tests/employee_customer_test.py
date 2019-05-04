@@ -1,11 +1,11 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
-from vip_admin.bot.models.employee import Employee, EmployeeSexEnum,\
+from bot_template.bot.models.employee import Employee, EmployeeSexEnum,\
     AccountOfficer, AccountOfficerStatusEnum
-from vip_admin.bot.models.customer import Customer, IndevidualCustomer, LegalCustomer
-from vip_admin.bot.models.branch import Branch
-from vip_admin.database.databasemanager import DatabaseManager
+from bot_template.bot.models.customer import Customer, IndevidualCustomer, LegalCustomer
+from bot_template.bot.models.branch import Branch
+from bot_template.database.databasemanager import DatabaseManager
 
 
 class TestGetAndWriteStatementData:

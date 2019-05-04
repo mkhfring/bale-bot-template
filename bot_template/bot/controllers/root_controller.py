@@ -10,8 +10,8 @@ from balebot.filters import TextFilter
 from balebot.utils.util_functions import arabic_to_eng_number
 import khayyam
 
-from vip_admin.config import BotConfig
-from vip_admin.utils import logger
+from bot_template.config import BotConfig
+from bot_template.utils import logger
 from ..constants import RegexPattern, ConstantMessage, ButtonMessage
 
 supported_users = BotConfig.supported_users

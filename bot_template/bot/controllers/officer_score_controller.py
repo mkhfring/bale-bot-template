@@ -8,13 +8,13 @@ from balebot.models.messages import TemplateMessage, TemplateMessageButton,\
     TextMessage
 import khayyam
 
-from vip_admin.utils.mimetype import MimeType
-from vip_admin.utils.result_writer import ResultWriter
+from bot_template.utils.mimetype import MimeType
+from bot_template.utils.result_writer import ResultWriter
 from .root_controller import RootController
 from ..constants import ButtonMessage, ConstantMessage, FieldTranslation
-from vip_admin.database.dbhandler import DB2Handler
-from vip_admin.config import BotConfig
-from vip_admin import MAIN_DIRECTORY
+from bot_template.database.dbhandler import DB2Handler
+from bot_template.config import BotConfig
+from bot_template import MAIN_DIRECTORY
 
 
 RESULT_PATH = os.path.join(MAIN_DIRECTORY, 'data')

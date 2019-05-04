@@ -4,7 +4,7 @@ from sqlalchemy import Integer, String, Column, Enum, ForeignKey
 from sqlalchemy.orm import relation, relationship
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import backref
-from vip_admin.database import BaseModel
+from bot_template.database import BaseModel
 
 
 class EmployeeSexEnum(enum.Enum):

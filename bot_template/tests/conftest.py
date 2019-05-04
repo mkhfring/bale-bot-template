@@ -1,7 +1,7 @@
 import pytest
 
-from vip_admin.database.dbhandler import DB2Handler
-from vip_admin.config import BotConfig
+from bot_template.database.dbhandler import DB2Handler
+from bot_template.config import BotConfig
 
 
 @pytest.fixture(scope='module')
