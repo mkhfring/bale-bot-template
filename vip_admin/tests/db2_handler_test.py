@@ -3,7 +3,6 @@ from datetime import datetime, timedelta
 
 from vip_admin.database.dbhandler import DB2Handler
 from vip_admin.config import BotConfig
-from vip_admin.utils.query_statements import AccountOfficerStatement
 
 
 base_time = datetime.today()-timedelta(2)
@@ -26,14 +25,3 @@ class DB2Connection(unittest.TestCase):
         assert isinstance(handler, DB2Handler)
         handler.connect()
         assert handler.connection is not None
-        account_officer_statements = AccountOfficerStatement(
-            start_date,
-            end_date
-        )
-
-        query_reult = handler.fetch_statement_data(
-            account_officer_statements.service_score_statement
-        )
-        assert query_reult is not None
-        assert isinstance(query_reult, list)
-        assert isinstance(query_reult[0], dict)

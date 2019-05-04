@@ -99,9 +99,7 @@ class RootController:
         message = TemplateMessage(
             TextMessage(ConstantMessage.menu_message),
             [
-                TemplateMessageButton(ButtonMessage.service_report_message),
                 TemplateMessageButton(ButtonMessage.officer_score_message),
-                TemplateMessageButton(ButtonMessage.weak_score_report_message),
                 TemplateMessageButton(ButtonMessage.customer_search_message),
                 TemplateMessageButton(ButtonMessage.officer_search_message),
             ]
