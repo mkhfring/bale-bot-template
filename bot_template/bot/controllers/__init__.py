@@ -1,4 +1,4 @@
 from .root_controller import RootController
-from .officer_score_controller import OfficerScoreController
-from .customer_controller import CustomerController
-from .officer_search_controller import OfficerSearchController
+from .second_controller import OfficerScoreController
+from .first_controller import CustomerController
+from .third_controller import OfficerSearchController
