@@ -167,7 +167,6 @@ bot/files
 
 # The deployment directories of configurations
 data/
-config.py
 *.yml
 
 # The local sqlite local databases
