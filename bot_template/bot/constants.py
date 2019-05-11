@@ -30,9 +30,9 @@ class ButtonMessage:
     main_menu_message = 'بازگشت به منوی اصلی'
     all_branches = 'تمام شعب'
     all_officers = 'تمام بانک آفیسرها'
-    officer_score_message = 'گزارش امتیاز اکانت آفیسرها، ناظرین و همکاران'
-    customer_search_message = 'جستجوی مشتریان'
-    officer_search_message = 'جستجوی اکانت آفیسر'
+    officer_score_message = 'Show first menu'
+    customer_search_message = 'Show second menu'
+    officer_search_message = 'Show third menu'
 
 
 class RegexPattern:
