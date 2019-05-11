@@ -8,8 +8,6 @@ class BotConfig:
         '1520084492:4e0a8824f7fc9e06fa953d57a23f9a59d1c509e8'
     )
 
-    previledged_users = os.environ.get('supported_users', '2063102279')
-    supported_users = previledged_users.split(', ')
     database_url = os.environ.get('database', 'sqlite:////home/mohamad/workspace/bot_template/bot_template/vip_practicedb.db')
     report_mode = os.environ.get('REPORT_MODE', 'database')
     database_string=os.environ.get(

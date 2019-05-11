@@ -16,7 +16,6 @@ from bot_template.bot.constants import ConstantMessage, RegexPattern
 from bot_template.bot.constants import ButtonMessage
 from ..controllers import RootController
 
-supported_users = BotConfig.supported_users
 RESULT_PATH = os.path.join(MAIN_DIRECTORY, 'data')
 
 
