@@ -12,7 +12,7 @@ import khayyam
 
 from bot_template.config import BotConfig
 from bot_template.utils import logger
-from ..constants import RegexPattern, ConstantMessage, ButtonMessage
+from bot_template.bot.constants import RegexPattern, ConstantMessage, ButtonMessage
 
 
 class RootController:

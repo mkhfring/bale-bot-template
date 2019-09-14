@@ -3,7 +3,7 @@ import asyncio
 from balebot.updater import Updater
 
 from bot_template.config import BotConfig
-from bot_template.bot.controllers import RootController, OfficerScoreController, \
+from bot_template.controllers import RootController, OfficerScoreController, \
     CustomerController, \
     OfficerSearchController
 

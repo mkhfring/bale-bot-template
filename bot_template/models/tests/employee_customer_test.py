@@ -1,10 +1,10 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
-from bot_template.bot.models.employee import Employee, EmployeeSexEnum,\
+from bot_template.models.employee import Employee, EmployeeSexEnum,\
     AccountOfficer, AccountOfficerStatusEnum
-from bot_template.bot.models.customer import Customer, IndevidualCustomer, LegalCustomer
-from bot_template.bot.models.branch import Branch
+from bot_template.models.customer import Customer, IndevidualCustomer, LegalCustomer
+from bot_template.models.branch import Branch
 from bot_template.database.databasemanager import DatabaseManager
 
 

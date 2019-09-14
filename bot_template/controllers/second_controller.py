@@ -11,7 +11,7 @@ import khayyam
 from bot_template.utils.mimetype import MimeType
 from bot_template.utils.result_writer import ResultWriter
 from .root_controller import RootController
-from ..constants import ButtonMessage, ConstantMessage, FieldTranslation
+from bot_template.bot.constants import ButtonMessage, ConstantMessage, FieldTranslation
 from bot_template.database.dbhandler import DB2Handler
 from bot_template.config import BotConfig
 from bot_template import MAIN_DIRECTORY
